@@ -130,7 +130,7 @@ public class Main {
          Unidad unidad1 = new Unidad();
          unidad1.setNombre("Sorcerer");
          unidad1.setNumIntegrante(8);
-         unidad1.setTipo("Aerial");
+         unidad1.setTipo("Stealth");
          unidad1.setEquipamento("8x F-15S/MTD");
          unidades.add(unidad1);
          
@@ -138,35 +138,35 @@ public class Main {
          unidad2 = new Unidad();
          unidad2.setNombre("Wizard");
          unidad2.setNumIntegrante(8);
-         unidad2.setTipo("Aerial");
-         unidad2.setEquipamento("8x F-18C Hornet");
+         unidad2.setTipo("Stealth/Jammer");
+         unidad2.setEquipamento("4x F-18C Hornet, 4x EA-18G Growler");
          unidades.add(unidad2);
          
          Unidad unidad3 = new Unidad();
          unidad3.setNombre("Crow");
          unidad3.setNumIntegrante(3);
-         unidad3.setTipo("Aerial");
+         unidad3.setTipo("Air Superiority");
          unidad3.setEquipamento("3x F-16C Fighting Falcon");
          unidades.add(unidad3);
          
          Unidad unidad4 = new Unidad();
          unidad4.setNombre("Heartbreak");
          unidad4.setNumIntegrante(1);
-         unidad4.setTipo("Aerial");
+         unidad4.setTipo("Reconnaissance");
          unidad4.setEquipamento("1x F-14D Super Tomcat");
          unidades.add(unidad4);
          
          Unidad unidad5 = new Unidad();
          unidad5.setNombre("Garm");
          unidad5.setNumIntegrante(2);
-         unidad5.setTipo("Aerial");
+         unidad5.setTipo("Air Superiority");
          unidad5.setEquipamento("2x F-15C Eagle");
          unidades.add(unidad5);
          
          Unidad unidad6 = new Unidad();
          unidad6.setNombre("Scarface");
          unidad6.setNumIntegrante(1);
-         unidad6.setTipo("Aerial Prototype");
+         unidad6.setTipo("Air Superiority Prototype");
          unidad6.setEquipamento("XFA-27 Scarface");
          unidades.add(unidad6);
          
