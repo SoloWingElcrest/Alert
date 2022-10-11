@@ -6,7 +6,7 @@
 package mx.itson.alert.entidades;
 
 /**
- *
+ * Entidad de unidades desplegadas
  * @author Xylan
  */
 public class Unidad {

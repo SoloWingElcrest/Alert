@@ -6,7 +6,7 @@
 package mx.itson.alert.entidades;
 
 /**
- *
+ * Entidad de Instruccion/Briefing
  * @author Xylan
  */
 public class Instruccion {

@@ -9,7 +9,7 @@ import java.util.List;
 import mx.itson.alert.enmueradores.Aproximidad;
 
 /**
- *
+ * entidad de operacion actual
  * @author Xylan
  */
 public class Operacion {

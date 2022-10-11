@@ -19,7 +19,11 @@ import mx.itson.alert.entidades.Unidad;
  * @author Xylan
  */
 public class Main {
+    
      public static void main(String[] args) {
+         /**
+          * Se establecen los valores de la entidad Operacion
+          */
          Operacion operacion = new Operacion();
          operacion.setCodename("Battle-Axe");
          operacion.setFecha("5/28/1995");
@@ -30,8 +34,15 @@ public class Main {
          operacion.setCoordenada("22°53'37\" N, 234°19'32\" E");
          operacion.setEstimacionHostil("Very high");
          
+         /**
+          * Se coloca un enumerador de proximidad
+          */
          operacion.setAproximidad(Aproximidad.ATA);
          
+         /**
+          * Se inicia un ArrayList para la entidad Descripcion
+          * Se hace en Arraylist y no directamente para acomodar el texto en consola
+          */
          List<Descripcion> descripciones = new ArrayList<>();
          
          Descripcion descripcion1 = new Descripcion();
@@ -72,6 +83,9 @@ public class Main {
          
          operacion.setDescripciones(descripciones);
          
+         /**
+          * Se inicia un Arraylist para la entidad Instruccion
+          */
          List<Instruccion> instrucciones = new ArrayList<>();
          
          Instruccion instruccion1 = new Instruccion();
@@ -101,6 +115,9 @@ public class Main {
          
          operacion.setInstrucciones(instrucciones);
                  
+        /**
+         * Se inicia un Arraylist para la entidad Unidad
+         */
          List<Unidad> unidades = new ArrayList<>();
          
          Unidad unidad0 = new Unidad();
@@ -155,6 +172,9 @@ public class Main {
          
          operacion.setUnidades(unidades);
          
+         /**
+          * Se imprimen todos los datos establecidos en consola
+          */
          System.out.println("//////EMERGENCY TRANSMISSION FROM HQ//////");
          System.out.println(" ");
          System.out.println("Operation: " + operacion.getCodename());

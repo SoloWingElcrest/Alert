@@ -6,7 +6,7 @@
 package mx.itson.alert.entidades;
 
 /**
- *
+ * Entidad de descripcion
  * @author Xylan
  */
 public class Descripcion {
