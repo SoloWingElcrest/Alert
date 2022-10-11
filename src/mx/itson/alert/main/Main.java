@@ -15,7 +15,7 @@ import mx.itson.alert.entidades.Operacion;
 import mx.itson.alert.entidades.Unidad;
 
 /**
- *
+ * Despliega los datos en consola
  * @author Xylan
  */
 public class Main {

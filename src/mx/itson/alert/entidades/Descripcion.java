@@ -12,10 +12,15 @@ package mx.itson.alert.entidades;
 public class Descripcion {
     private String descripcion;
 
+        /**
+     * @return the descripcion
+     */
     public String getDescripcion() {
         return descripcion;
     }
-
+        /**
+     * @param descripcion the descripcion to set
+     */
     public void setDescripcion(String briefing) {
         this.descripcion = briefing;
     }

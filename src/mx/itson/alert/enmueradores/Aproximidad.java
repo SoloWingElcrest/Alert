@@ -11,5 +11,5 @@ package mx.itson.alert.enmueradores;
  */
 public enum Aproximidad {
     
-    RECONOCIMIENTO,ATA,ATG
+    RECONNAISSANCE,ATA,ATG
 }
